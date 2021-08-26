@@ -12,6 +12,7 @@ main {
     grid-auto-rows: min-content;
     padding: 30px;
     font-family: 'Amatic SC', cursive;
+    font-weight: bold;
     
 }
 
@@ -30,13 +31,17 @@ header img {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
+    color:indianred;
+    font-family: 'Amatic SC', cursive;
 }
 
 footer {
     background-color: rgb(238, 200, 206);
     padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: indianred;
 }
 
 #add { 

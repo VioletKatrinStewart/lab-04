@@ -8,7 +8,7 @@ import { divide } from '../calculator.js';
 const test = QUnit.test;
 
 test('divide function', (expect) => {
-    const expected =5;
+    const expected = 5;
 
     const actual = divide(25, 5);
     expect.equal(actual, expected);

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
@@ -18,35 +21,43 @@
     </header>
     
     <main>
+        <div id=add> 
+            <input id="add-number-1"> 
+            + 
+            <input id="add-number-2"> 
+            <button id="add-button">=</button>
+            <span id="add-answer">?</span>
+                Adittion!
+        </div>
         
-        <input id="add-number-1"> 
-        + 
-        <input id="add-number-2"> 
-        <button id="add-button">=</button>
-        <span id="add-answer">?</span>
-            Adittion!
-        
-        <input id="subtract-number-1">
-         - 
-        <input id="subtract-number-2">
-        <button id="subtract-button">=</button>
-        <span id="subtract-answer">?</span>
-            Subtraction!
+        <div id=sub>
+            <input id="subtract-number-1">
+             - 
+            <input id="subtract-number-2">
+            <button id="subtract-button">=</button>
+            <span id="subtract-answer">?</span>
+                Subtraction!
+        </div>
 
-        <input id="multiply-number-1">
-        *
-        <input id="multiply-number-2">
-        <button id="multiply-button">=</button>
-        <span id="multiply-answer">?</span>
-            Multiplication!
+        <div id=multiply>
+            <input id="multiply-number-1">
+             *
+            <input id="multiply-number-2">
+            <button id="multiply-button">=</button>
+            <span id="multiply-answer">?</span>
+                Multiplication!
+        </div>
 
-        <input id="division-number-1">
-        /
-        <input id="division-number-2">
-        <button id="division-button">=</button>
-        <span id="division-answer">?</span>
+        <div id=divide> 
+            <input id="division-number-1">
+            /
+            <input id="division-number-2">
+            <button id="division-button">=</button>
+            <span id="division-answer">?</span>
             Division!
+        </div>
 
+        <img src="assets/cute-calculator.gif">
     </main>
 
     <footer>

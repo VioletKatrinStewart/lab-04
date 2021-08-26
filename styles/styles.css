@@ -7,11 +7,16 @@ body {
 }
 
 main {
+    display: grid;
+    grid-template-rows: auto, auto, auto, auto;
+    grid-auto-rows: min-content;
     padding: 30px;
+    font-family: 'Amatic SC', cursive;
+    
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: rgb(238, 200, 206);
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -30,6 +35,20 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: rgb(238, 200, 206);
     padding: 10px;
 }
+
+#add { 
+    color: rgb(143, 10, 143);
+}
+#sub {
+    color: rgb(69, 69, 179);
+}
+#multiply {
+    color: rgb(196, 99, 60);
+}
+#divide {
+    color:rgb(59, 207, 121);
+}
+
